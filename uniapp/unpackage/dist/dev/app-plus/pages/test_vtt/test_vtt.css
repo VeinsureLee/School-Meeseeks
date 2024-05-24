@@ -1,0 +1,19 @@
+
+.audioPlay[data-v-578b19ba] {
+  display: flex;
+  flex-direction: row;
+}
+.recognizedTextContainer[data-v-578b19ba] {
+  width: 100%; /* 设置容器宽度为100% */
+  display: flex; /* 使用 Flex 布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+.recognizedText[data-v-578b19ba] {
+	font-size: 20px;
+	color: #333;
+  /* 这里可以添加文本样式，比如字体大小、颜色等 */
+}
+uni-button[data-v-578b19ba] {
+  margin-right: 10px;
+}

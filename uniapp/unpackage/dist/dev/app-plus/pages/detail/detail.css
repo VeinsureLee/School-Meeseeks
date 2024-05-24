@@ -1,0 +1,30 @@
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* 添加间隔 */
+}
+.row {
+  display: flex;
+}
+.header {
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+.cell {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+}
+.cell:last-child {
+  border-right: none;
+}
+.info {
+  margin-top: 20px; /* 添加间隔 */
+}
+.info p {
+  margin-bottom: 10px; /* 添加间隔 */
+}

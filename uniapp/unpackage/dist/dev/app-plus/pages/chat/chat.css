@@ -1,0 +1,66 @@
+
+/* 添加这个样式来设置图标边框为透明 */
+.voice-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* 将按钮移到聊天框的右边 */
+  transform: translateY(-50%);
+  background: transparent; /* 设置背景为透明 */
+  border: none; /* 移除按钮边框 */
+  padding: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* 其他样式保持不变 */
+.chat-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.chat-content {
+  flex: 1;
+}
+.message-item {
+  margin: 10px;
+}
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  position: relative; /* 添加这个样式以使按钮定位相对于消息元素 */
+}
+.send {
+  background-color: #DCF8C6;
+  align-self: flex-end;
+}
+.receive {
+  background-color: #EAEAEA;
+  align-self: flex-start;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+uni-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.voice-btn, .send-btn {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.voice-btn {
+  background-color: #007AFF;
+  color: #fff;
+}
+.send-btn {
+  background-color: #007AFF;
+  color: #fff;
+}

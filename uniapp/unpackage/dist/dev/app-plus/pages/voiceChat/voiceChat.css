@@ -1,0 +1,37 @@
+
+/* 添加这个样式来设置图标边框为透明 */
+.voice-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* 将按钮移到聊天框的右边 */
+  transform: translateY(-50%);
+  background: transparent; /* 设置背景为透明 */
+  border: none; /* 移除按钮边框 */
+  padding: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.voice-btn {
+	top: 100%;
+	margin-left: 10px;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+.voice-btn {
+	background-color: #007AFF;
+	color: #fff;
+}
+.recording-animation,
+.recognizing-animation,
+.speaking-animation,
+.err-animation {
+  position: absolute;
+  top: 20%; /* 居中 */
+  left: 50%; /* 居中 */
+  transform: translate(-50%, -50%); /* 居中 */
+  z-index: 9999; /* 确保它在其他元素之上 */
+  width: 200px;
+  height: 200px;
+}
